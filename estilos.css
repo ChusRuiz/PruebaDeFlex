@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Arriba {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px;
+    margin: 10px 10px;
+}
+
+.Arriba h1 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    width: 150px;
+}
+
+.menu-option {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+
+.contenido {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.textoDerecho {
+    flex-grow: 2;
+    background-color: #ff7f50;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px 10px;
+    margin: 10px 10px;
+}
+
+.footer {
+    flex-grow: 8;
+    background-color: #adff2f;
+    padding: 10px;
+
+    text-align: left;
+    border-radius: 10px 10px;
+    margin: 10px 10px;
+}
+
+.footer h3 {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+.espacio {
+    flex-grow: 1;
+
+}
